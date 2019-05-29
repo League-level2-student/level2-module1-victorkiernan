@@ -1,12 +1,19 @@
 package intro_to_array_lists;
 
+import java.util.ArrayList;
+
 public class IntroToArrayLists {
 	public static void main(String[] args) {
 		//1. Create an array list of Strings
 		//   Don't forget to import the ArrayList class
-		
+		ArrayList<String> names = new ArrayList<String>();
 		//2. Add five Strings to your list
+		names.add("Jefferson Frank");
+		names.add("Meme master");
+		names.add("Ur Mom");
+		names.add("Ur Dad");
 		
+			
 		//3. Print all the Strings using a standard for-loop
 		
 		//4. Print all the Strings using a for-each loop

@@ -8,11 +8,11 @@ public class ArrayListDemo {
 		//ArrayList of Strings
 		ArrayList<String> names = new ArrayList<String>();
 		
-		names.add("Jan");
-		names.add("Sara");
-		names.add("Fred");
-		names.add("Marc");
-		
+		names.add("comic sans");
+		names.add("buh da da da da da da da da da da da da");
+		names.add("Fredrick the Third");
+		names.add("Cark");
+		names.remove(0);
 		System.out.println("Here's an ArrayList of Strings:\n");
 		//iterating through list with standard for-loop
 		for(int i = 0; i < names.size(); i++){
